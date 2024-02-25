@@ -14,91 +14,199 @@
     />
     <link rel="shortcut icon" href="https://tapsi.ir/images/favicon.ico" />
     <link rel="stylesheet" href="css/main.css" />
+    <link href="./fonts/IRANYekanWeb.woff" rel="stylesheet" />
   </head>
-  <body class="m-0">
-    <div
-      class="flex items-center w-full justify-between h-[60px] bg-[#f8f8f8 relative border-[#ddd] border-0 border-b border-solid"
-    >
-      <div class="w-auto mx-7">
-        <i
-          class="bi bi-list text-[28px] cursor-pointer js-func"
-          id="js-func"
-        ></i>
-        <div
-          id="js-func2"
-          class="flex-col absolute w-[100vw] bg-[#ffffff] left-0 top-[61px] hidden"
-        >
-          <div class="text-right">
+  <body class="m-0 h-[2000px]">
+    <!-- Navigation -->
+    <div class="sticky top-0 w-full z-20">
+      <div
+        class="flex items-center w-full justify-between h-[60px] bg-[#f8f8f8] relative md:static border-[#ddd] border-0 border-b border-solid"
+      >
+        <div class="w-auto mx-7 md:ml-[30px] lg:ml-[50px] flex">
+          <div class="w-fit hidden lg:block">
             <a
               href="#"
-              class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722]"
-              >وبلاگ</a
+              class="px-[40px] py-[7px] whitespace-nowrap text-center block w-fit no-underline text-white bg-[#ff5722] rounded-md font-body"
+              >دانلود تپسی</a
             >
           </div>
-          <div class="text-right">
-            <a
-              href="#"
-              class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722]"
-              >فرصت های شغلی</a
-            >
-          </div>
-          <div class="text-right">
-            <a
-              href="#"
-              class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722]"
-              >تپسی پیک</a
-            >
-          </div>
-          <div class="text-right">
-            <a
-              href="#"
-              class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722]"
-              >امور سهام</a
-            >
-          </div>
-          <div class="text-right">
-            <a
-              href="#"
-              class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722]"
-              >پشتیبانی</a
-            >
-          </div>
-          <div class="text-right">
-            <a
-              href="#"
-              class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722]"
-              >ویدیو ها
-            </a>
-          </div>
-          <!-- <div class="text-right">
+          <i
+            class="bi bi-list text-[28px] cursor-pointer md:hidden"
+            id="js-func"
+          ></i>
+          <div
+            id="js-func2"
+            class="flex-col absolute w-[100vw] md:w-fit bg-[#f8f8f8] left-0 top-[61px] hidden md:flex md:static md:left-0 md:flex-row md:justify-center"
+          >
+            <div class="text-right">
+              <a
+                href="#"
+                class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722] whitespace-nowrap font-body"
+                >وبلاگ</a
+              >
+            </div>
+            <div class="text-right">
+              <a
+                href="#"
+                class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722] whitespace-nowrap font-body"
+                >فرصت های شغلی</a
+              >
+            </div>
+            <div class="text-right">
+              <a
+                href="#"
+                class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722] whitespace-nowrap font-body"
+                >تپسی پیک</a
+              >
+            </div>
+            <div class="text-right">
+              <a
+                href="#"
+                class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722] whitespace-nowrap font-body"
+                >امور سهام</a
+              >
+            </div>
+            <div class="text-right">
+              <a
+                href="#"
+                class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722] whitespace-nowrap font-body"
+                >پشتیبانی</a
+              >
+            </div>
+            <div class="text-right">
+              <a
+                href="#"
+                class="my-[10px] mx-[15px] block no-underline text-[#545454] hover:text-[#ff5722] whitespace-nowrap font-body"
+                >ویدیو ها
+              </a>
+            </div>
+            <!-- <div class="text-right">
             <a href="#" class="my-[10px] mx-[15px] block">هتاسذلذ</a>
           </div> -->
+          </div>
+        </div>
+        <div class="w-auto mx-7 md:mr-[50px] ml-0 lg:mr-[100px]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="95"
+            height="22"
+            viewBox="0 0 102 22"
+          >
+            <g fill-rule="evenodd">
+              <path
+                fill="#000"
+                d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z"
+              ></path>
+              <path
+                fill="#000"
+                d="M84.702 19.297h3.854V22h3.304v-5.946h-7.158zM102 0h-6.561v2.973H102z"
+              ></path>
+              <path
+                fill="#FF5B35"
+                d="M26.842 11.297H10.737V5.946h16.105zM26.842 22H0v-5.351h26.842z"
+              ></path>
+            </g>
+          </svg>
         </div>
       </div>
-      <div class="w-auto mx-7">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="95"
-          height="22"
-          viewBox="0 0 102 22"
-        >
-          <g fill-rule="evenodd">
-            <path
-              fill="#000"
-              d="M102 5.946h-3.222v4.28H91.8v-4.28h-3.221v4.28h-5.637a1.878 1.878 0 0 1-1.879-1.872V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873 1.878 1.878 0 0 1-1.879-1.873V5.946h-3.221v2.408a1.878 1.878 0 0 1-1.879 1.873h-1.879V5.946h-3.22v4.28h-17.18v3.212h3.758v.535c0 2.656-2.167 4.816-4.831 4.816-2.664 0-4.832-2.16-4.832-4.816v-3.746H37.58v3.746c0 4.426 3.613 8.027 8.053 8.027 4.44 0 8.052-3.6 8.052-8.027v-.535H68.985a5.09 5.09 0 0 0 3.489-1.381 5.09 5.09 0 0 0 3.49 1.38 5.09 5.09 0 0 0 3.489-1.38 5.089 5.089 0 0 0 3.489 1.38H102V5.947z"
-            ></path>
-            <path
-              fill="#000"
-              d="M84.702 19.297h3.854V22h3.304v-5.946h-7.158zM102 0h-6.561v2.973H102z"
-            ></path>
-            <path
-              fill="#FF5B35"
-              d="M26.842 11.297H10.737V5.946h16.105zM26.842 22H0v-5.351h26.842z"
-            ></path>
-          </g>
-        </svg>
+    </div>
+    <!-- End Navigation -->
+    <!-- Slider -->
+    <div class="w-full relative">
+      <img
+        src="images/Banner.jpg"
+        class="object-cover h-[455px] object-center w-full"
+      />
+      <div
+        class="absolute w-[270px] inset-0 left-[50%] ml-[-135px] mt-[10px] bg-backg rounded-[10px] pb-[10px] h-fit md:w-[478px] md:ml-0 md:right-[120px] md:left-auto"
+      >
+        <div class="flex mx-auto flex-col text-right w-[80%]">
+          <h1
+            class="text-[20px] text-white font-body m-0 py-[10px] md:text-[40px]"
+          >
+            تپسی
+          </h1>
+          <h2
+            class="text-[13px] text-white font-body mb-[30px] mt-0 md:text-[20px]"
+          >
+            اپلیکیشن درخواست خودرو و پیک
+          </h2>
+        </div>
+        <div class="md:flex md:flex-wrap">
+          <div class="w-[80%] mx-auto mb-[15px] md:w-[45%]">
+            <a
+              href="#"
+              class="flex justify-center items-center bg-white no-underline rounded-xl"
+              ><p
+                class="mx-[10px] font-body text-[14px] text-black hover:text-[#4b4b4b]"
+              >
+                دانلود اپلیکیشن مسافران
+              </p>
+              <i
+                class="bi bi-arrow-down text-[20px] text-black hover:text-[#4b4b4b]"
+              ></i
+            ></a>
+          </div>
+          <div class="w-[80%] mx-auto mb-[15px] md:w-[45%]">
+            <a
+              href="#"
+              class="flex justify-center items-center bg-white no-underline rounded-xl"
+              ><p
+                class="mx-[10px] font-body text-[14px] text-black hover:text-[#4b4b4b]"
+              >
+                وب اپلیکیشن مسافران
+              </p>
+              <i
+                class="bi bi-wifi text-[20px] text-black hover:text-[#4b4b4b]"
+              ></i
+            ></a>
+          </div>
+          <div class="w-[80%] mx-auto mb-[15px] md:w-[45%]">
+            <a
+              href="#"
+              class="flex justify-center items-center bg-transparent no-underline rounded-xl border-2 border-white border-solid"
+              ><p
+                class="mx-[10px] font-body text-[14px] text-white hover:text-[#e4e4e4]"
+              >
+                ثبت نام راننده خودرو
+              </p>
+              <i
+                class="bi bi-truck-front text-[20px] text-white hover:text-[#e4e4e4]"
+              ></i
+            ></a>
+          </div>
+          <div class="w-[80%] mx-auto mb-[15px] md:w-[45%]">
+            <a
+              href="#"
+              class="flex justify-center items-center bg-transparent no-underline rounded-xl border-2 border-white border-solid"
+              ><p
+                class="mx-[10px] font-body text-[14px] text-white hover:text-[#e4e4e4]"
+              >
+                ثبت نام راننده موتور
+              </p>
+              <i
+                class="bi bi-bicycle text-[20px] text-white hover:text-[#e4e4e4]"
+              ></i
+            ></a>
+          </div>
+          <div class="w-[80%] mx-auto mb-[15px] md:w-[45%]">
+            <a
+              href="#"
+              class="flex justify-center items-center bg-transparent no-underline rounded-xl border-2 border-white border-solid"
+              ><p
+                class="mx-[10px] font-body text-[14px] text-white hover:text-[#e4e4e4]"
+              >
+                دانلود اپلیکیشن رانندگان
+              </p>
+              <i
+                class="bi bi-arrow-down text-[20px] text-white hover:text-[#e4e4e4]"
+              ></i
+            ></a>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- End Slider -->
     <script src="js/main.js"></script>
   </body>
 </html>
