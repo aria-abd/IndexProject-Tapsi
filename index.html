@@ -116,6 +116,9 @@
         src="images/Banner.jpg"
         class="object-cover h-[455px] object-center w-full"
       />
+      <div class="absolute top-24 left-24 hidden lg:block">
+        <img src="images/mockup-phone.png" class="w-[350px]" alt="" />
+      </div>
       <div
         class="absolute w-[270px] inset-0 left-[50%] ml-[-135px] mt-[10px] bg-backg rounded-[10px] pb-[10px] h-fit md:w-[478px] md:ml-0 md:right-[120px] md:left-auto"
       >
@@ -215,11 +218,10 @@
         class="flex flex-row-reverse w-full overflow-auto md:justify-between items-center"
       >
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a class="block no-underline text-center divSelector" id="gholi">
             <img
               src="images/Service-01.png"
-              class="w-[80px] mx-auto md:w-[95px]"
-              id="service"
+              class="w-[80px] mx-auto md:w-[95px] service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">
               تپسی کلاسیک
@@ -227,11 +229,10 @@
           </a>
         </div>
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a class="block no-underline text-center divSelector ">
             <img
               src="images/Service-02.png"
-              class="w-[80px] mx-auto opacity-50"
-              id="service"
+              class="w-[80px] mx-auto opacity-50 service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">
               تپسی تلفنی
@@ -239,11 +240,10 @@
           </a>
         </div>
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a href="#" class="block no-underline text-center divSelector">
             <img
               src="images/Service-03.png"
-              class="w-[80px] mx-auto opacity-50"
-              id="service"
+              class="w-[80px] mx-auto opacity-50 service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">
               تپسی لاین
@@ -251,31 +251,28 @@
           </a>
         </div>
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a href="#" class="block no-underline text-center divSelector">
             <img
               src="images/Service-04.png"
-              class="w-[80px] mx-auto opacity-50"
-              id="service"
+              class="w-[80px] mx-auto opacity-50 service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">موتوپیک</p>
           </a>
         </div>
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a href="#" class="block no-underline text-center divSelector">
             <img
               src="images/Service-05.png"
-              class="w-[80px] mx-auto opacity-50"
-              id="service"
+              class="w-[80px] mx-auto opacity-50 service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">اتوپیک</p>
           </a>
         </div>
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a href="#" class="block no-underline text-center divSelector">
             <img
               src="images/Service-06.png"
-              class="w-[80px] mx-auto opacity-50"
-              id="service"
+              class="w-[80px] mx-auto opacity-50 service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">
               تپسی پلاس
@@ -283,11 +280,10 @@
           </a>
         </div>
         <div class="w-[90px] md:w-[95px]">
-          <a href="#" class="block no-underline text-center">
+          <a href="#" class="block no-underline text-center divSelector">
             <img
               src="images/Service-07.png"
-              class="w-[80px] mx-auto opacity-50"
-              id="service"
+              class="w-[80px] mx-auto opacity-50 service"
             />
             <p class="font-body text-black text-nowrap text-[12px]">همیار</p>
           </a>
@@ -297,18 +293,143 @@
     <!-- End Service -->
     <!-- Component -->
     <div class="mx-[20px] md:mx-[70px]">
-      <div class="flex flex-row-reverse">
-        <div class="w-full flex flex-col items-end font-body">
-          <h3>تپسی کلاسیک</h3>
-          <p class="" dir="rtl">
+      <div
+        class="flex flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">تپسی کلاسیک</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[50px] md:text-[16px]"
+            dir="rtl"
+          >
             با سرویس کلاسیک تپسی، یک خودروی اختصاصی برای رسیدن به مقصدتان دارید.
             تپسی کلاسیک، راهی سریع و آسان برای سفرهای درون‌شهری در هر ساعتی از
             روز است. در این سرویس، شما امکان تعیین دو یا چند مقصد و همچنین توقف
             در مسیر را دارید.
           </p>
         </div>
-        <div class="w-[45%] hidden">
-          <img src="images/Component01.png" alt="" />
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component01.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <div
+        class="hidden flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">تپسی تلفنی</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[50px] md:text-[16px]"
+            dir="rtl"
+          >
+            سرویس تپسی تلفنی یا ۱۶۳۰، این امکان را به شما می‌دهد که بدون نیاز به
+            اینترنت و اپلیکیشن، درخواست خودرو بدهید. این سرویس تاکسی تلفنی مناسب
+            زمانی است که به هر دلیلی دسترسی به اینترنت یا اپلیکیشن ندارید.
+            همچنین سرویس تلفنی تپسی، راه حلی مناسب برای افرادی است که کار کردن
+            با اپلیکیشن‌های موبایلی برایشان راحت نیست.
+          </p>
+        </div>
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component02.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <div
+        class="hidden flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">تپسی لاین</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[50px] md:text-[16px]"
+            dir="rtl"
+          >
+            تپسی لاین سرویسی است که امکان سفر اشتراکی را برایتان فراهم می‌کند.
+            در این سرویس شما با مسافر دیگری که هم‌مسیرتان است، هم‌سفر خواهید بود
+            و هزینه سفرتان تقسیم می‌شود.
+          </p>
+        </div>
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component03.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <div
+        class="hidden flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">موتوپیک</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[20px] md:text-[16px]"
+            dir="rtl"
+          >
+            با استفاده از سرویس موتوپیک، بسته‌ها و مرسولاتتان با پیک موتور به
+            مقصد ارسال می‌شوند. این سرویس مناسب زمانی است که می‌خواهید مرسوله
+            سریع‌تر به مقصد برسد. در این سرویس، شما می‌توانید مسیر رسیدن
+            مرسوله‌تان به مقصد را به صورت لحظه‌ای روی نقشه دنبال کنید.
+          </p>
+          <div>
+            <a
+              href="#"
+              class="bg-[#ff5722] hover:bg-[#ff6738] block w-[204px] h-[46px] text-center leading-[46px] no-underline text-white rounded-lg text-[14px]"
+              >آشنایی با موتوپیک</a
+            >
+          </div>
+        </div>
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component04.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <div
+        class="hidden flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">اتوپیک</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[50px] md:text-[16px]"
+            dir="rtl"
+          >
+            اتوپیک سرویسی برای ارسال بسته‌های شما با خودرو است. این سرویس، برای
+            زمانی مناسب است که بسته‌های شما، با موتور قابل ارسال نیستند و یا در
+            حین جابجایی، نیاز به مراقبت بیشتری دارند. در این سرویس نیز امکان رصد
+            لحظه ‌به لحظه موقعیت مکانی مرسوله تا زمان رسیدن به مقصد فراهم است.
+          </p>
+        </div>
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component05.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <div
+        class="hidden flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">تپسی پلاس</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[50px] md:text-[16px]"
+            dir="rtl"
+          >
+            در سرویس پلاس تاکسی اینترنتی تپسی، خودرویی با مدل بالاتر و عمر کمتر،
+            به دنبال شما خواهد آمد. همچنین، رانندگان این سرویس بالاترین امتیاز
+            را از مسافران دریافت کرده‌اند. در این سرویس که در حال حاضر در تهران
+            فعال است، امکان تعیین چند مقصد یا توقف در حین سفر، وجود دارد.
+          </p>
+        </div>
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component06.png" class="w-full" alt="" />
+        </div>
+      </div>
+      <div
+        class="hidden flex-row-reverse border-0 border-b border-[#ddd] border-solid mt-12 component"
+      >
+        <div class="w-full flex flex-col items-end font-body md:w-[45%]">
+          <h3 class="text-[16px] mb-1 md:text-[26px] mt-0">همیار</h3>
+          <p
+            class="text-[14px] text-justify text-[#333] leading-8 pb-[50px] md:text-[16px]"
+            dir="rtl"
+          >
+            سرویس همیار تپسی، به جای شما خرید می‌کند. کافیست فروشگاه مورد نظر
+            خود را به عنوان مبدا مشخص کرده و لیست خریدتان را داخل اپ وارد کنید.
+            این خرید‌ها می‌تواند از سوپرمارکت یا داروخانه مورد نظر شما باشند.
+          </p>
+        </div>
+        <div class="=hidden mr-auto md:w-[45%]">
+          <img src="images/Component07.png" class="w-full" alt="" />
         </div>
       </div>
     </div>

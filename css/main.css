@@ -44,6 +44,62 @@
   top: 61px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-9 {
+  top: 2.25rem;
+}
+
+.top-12 {
+  top: 3rem;
+}
+
+.top-14 {
+  top: 3.5rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.left-16 {
+  left: 4rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -110,6 +166,30 @@
   margin-top: 10px;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
 .block {
   display: block;
 }
@@ -137,6 +217,14 @@
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[46px\] {
+  height: 46px;
 }
 
 .w-\[100vw\] {
@@ -174,6 +262,30 @@
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[350\] {
+  width: 350;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-\[204\] {
+  width: 204;
+}
+
+.w-\[204px\] {
+  width: 204px;
 }
 
 .cursor-pointer {
@@ -228,12 +340,20 @@
   border-radius: 0.75rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-0 {
   border-width: 0px;
 }
 
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b {
@@ -252,6 +372,10 @@
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
 }
 
 .bg-\[\#f8f8f8\] {
@@ -273,6 +397,15 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#ff6738\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 103 56 / var(--tw-bg-opacity));
+}
+
 .bg-backg {
   background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
 }
@@ -285,6 +418,10 @@
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+
+.p-\[5px\] {
+  padding: 5px;
 }
 
 .px-\[40px\] {
@@ -302,8 +439,30 @@
   padding-bottom: 7px;
 }
 
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .pb-\[10px\] {
   padding-bottom: 10px;
+}
+
+.pb-\[50px\] {
+  padding-bottom: 50px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
 }
 
 .text-center {
@@ -312,6 +471,10 @@
 
 .text-right {
   text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-end {
@@ -342,6 +505,34 @@
   font-size: 28px;
 }
 
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[140px\] {
+  font-size: 140px;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[46\] {
+  line-height: 46;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
+.leading-\[46px\] {
+  line-height: 46px;
+}
+
 .text-\[\#545454\] {
   --tw-text-opacity: 1;
   color: rgb(84 84 84 / var(--tw-text-opacity));
@@ -357,12 +548,43 @@
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[16\] {
+  color: 16;
+}
+
+.text-\[16p\] {
+  color: 16p;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#333\] {
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
 .no-underline {
   text-decoration-line: none;
 }
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.hover\:bg-\[\#ff5722\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 87 34 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#ff6738\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 103 56 / var(--tw-bg-opacity));
 }
 
 .hover\:text-\[\#4b4b4b\]:hover {
@@ -414,6 +636,10 @@
     margin-right: 50px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -437,6 +663,10 @@
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .md\:w-\[\] {
+    width: ;
   }
 
   .md\:flex-row {
@@ -465,6 +695,22 @@
 
   .md\:text-\[40px\] {
     font-size: 40px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .md\:text-\[26px\] {
+    font-size: 26px;
+  }
+
+  .md\:text-\[\] {
+    color: ;
   }
 }
 
