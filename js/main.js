@@ -37,7 +37,7 @@ const myFunc = () => {
   }
 };
 
-// const intervalId = setInterval(myFunc, 5000);  8888888888888888888888888888888888888888888
+// const intervalId = setInterval(myFunc, 3000);
 
 // for (let i = 0; i < divSelector.length; i++) {
 //   // text += cars[i] + "<br>";
