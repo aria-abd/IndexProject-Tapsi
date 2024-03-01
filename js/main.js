@@ -2,7 +2,7 @@ let icon = document.getElementById("js-func");
 let div1 = document.getElementById("js-func2");
 let service = document.querySelectorAll(".service");
 let component = document.querySelectorAll(".component");
-let divSelector = document.querySelectorAll(".divSelector");
+// let divSelector = document.querySelectorAll(".divSelector");
 let counter = 0;
 
 icon.addEventListener("click", () => {
@@ -33,23 +33,17 @@ const myFunc = () => {
   counter += 1;
   if (counter === 7) {
     counter = 0;
-    clearInterval(intervalId);
+    // clearInterval(intervalId);
   }
 };
 
-const intervalId = setInterval(myFunc, 3000);
+// const intervalId = setInterval(myFunc, 5000);  8888888888888888888888888888888888888888888
 
-// divSelector[counter].addEventListener("click", () => {});
-
-for (let i = 0; i < divSelector.length; i++) {
-  // text += cars[i] + "<br>";
-  console.log("hi");
-  divSelector[i].classList.add(0 + i);
-  divSelector[i].addEventListener("click", (e) => {
-    console.log(e);
-  });
-}
-
-// divSelector[0].addEventListener("click", () => {
-//   console.log(`hi1`);
-// });
+// for (let i = 0; i < divSelector.length; i++) {
+//   // text += cars[i] + "<br>";
+//   console.log("hi");
+//   divSelector[i].classList.add(0 + i);
+//   divSelector[i].addEventListener("click", (e) => {
+//     console.log(e);
+//   });
+// }

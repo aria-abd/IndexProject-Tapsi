@@ -5,8 +5,11 @@ module.exports = {
     fontFamily: {
       body: ["yekan", "sans-serif"],
     },
-    backgroundImage:{
-      backg : ['linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%)']
+    backgroundImage: {
+      backg: [
+        "linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%)",
+      ],
+      hero: ["url('../images/parallax.jpeg')"],
     },
   },
   plugins: [],
